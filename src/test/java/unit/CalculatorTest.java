@@ -24,7 +24,7 @@ public class CalculatorTest {
 		InputProcessor mockedInputProcessor = mock(InputProcessor.class);
 
 		// stubbing appears before the actual execution
-		when(mockedInputProcessor.stripWhitespaces("Michael Palotas")).thenReturn("lalala");
+		when(mockedInputProcessor.stripWhitespaces("Michael Palotas")).thenReturn("MichaelPalotas");
 		
 		
 		Calculator calc = new Calculator();
