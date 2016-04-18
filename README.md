@@ -1,5 +1,5 @@
 # CDI Training 
-test9
+test10
 ### Run tests with Maven
 Unit tests: mvn test -Dgroup=unit</br>
 Integration tests: mvn test -Dgroup=integration </br>
